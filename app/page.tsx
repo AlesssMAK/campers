@@ -1,5 +1,11 @@
+import Header from '@/componets/Header/Header';
+
 const HopePage = () => {
-  return <div>HopePage</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 };
 
 export default HopePage;

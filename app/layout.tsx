@@ -2,9 +2,8 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import { Toaster } from 'react-hot-toast';
-import 'normalize.css';
 import AuthProvider from '@/componets/AuthProvider/AuthProvider';
-import TanStackProvider from '@/componets/AuthProvider/TanStackProvider/TanStackProvider';
+import TanStackProvider from '@/componets/TanStackProvider/TanStackProvider';
 
 const inter = Inter({
   variable: '--font-Inter',

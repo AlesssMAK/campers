@@ -1,0 +1,29 @@
+.header {
+  padding: 24px 0;
+}
+
+.headerContainer {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+
+.nav {
+  justify-self: center;
+  display: flex;
+  gap: 32px;
+}
+
+.navLink {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #101828;
+  transition: 0.3s ease;
+}
+
+.navLink:hover,
+.navLink:focus {
+  color: #d84343;
+}
